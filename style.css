@@ -1,0 +1,244 @@
+* {
+    margin:0;
+    padding:0;
+    outline:none;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+
+header{
+    height: 780px;
+    position: relative;
+}
+
+nav{
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.petstory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    line-height: 22.82px;
+    font-size: 19.01px;
+    font-weight: 400;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 220px;
+    top: 14px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.about{
+    color: #f9804b;
+    position: absolute;
+    left: 365px;
+    top: 29px;
+}
+
+.map{
+    position: absolute;
+    left: 466px;
+    top: 29px;
+}
+
+.zoos{
+    position: absolute;
+    left: 556px;
+    top: 29px;
+}
+
+.donate{
+    position: absolute;
+    left: 650px;
+    top: 29px;
+}
+
+.contactus{
+    position: absolute;
+    left: 759px;
+    top: 29px;
+}
+
+.design{
+    
+    font-size: 16px;
+    position: absolute;
+    left: 1275px;
+    top: 29px;
+    }
+    
+.bigorange{
+    width: 465px;
+    height: 465px;
+    position: absolute;
+    top: 92px;
+    left: 807px;
+    background-color: #f9804b;
+    border-radius: 100%;
+
+}
+
+.textorange{
+    font-family: Roboto;
+    font-weight: 700;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 106.5px;
+    line-height: 75%;
+    text-align: center;
+    top: 74px;
+    left: 73px;
+}
+
+.favorite{
+    color: #FFEE2E;
+}
+
+.whatchonline{
+position: absolute;
+width: 298px;
+height: 54px;
+Top: 626px;
+Left: 983px;
+border-radius: 25px;
+color: #FFFFFF;
+background-color: #f9804b;
+border: none;
+font-family: roboto;
+font-weight: 500;
+line-height: 22.4px;
+font-size: 16px;
+}
+
+.section2{
+    position: relative;
+    display: flex;
+    top: 140px;
+    left: 219px;
+    width: 1161px;
+    height: 403px;
+}
+
+.bamboo-text{
+    font-size: 16px;
+    width: 465px;
+    height: 116px;
+    padding-left: 87px;
+    font-family: Roboto;
+
+}
+
+.wrapbamboo{
+    border-bottom: dotted 3px red;
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+}
+.bambooh2{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.bamboo-article{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 54px;
+}
+
+.subtitlebamboo{
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 34px;
+
+}
+
+.animals{
+    width: 1600px;
+    border: 6px dotted black;
+    height: 1212px;
+    display: flex;
+}
+
+
+
+.animals1{
+    background-color: azure;
+    height: 872px;
+    width: 1600px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.flesh1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 220px;
+}
+
+.flesh2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 220px;
+}
+
+
+.imgflesh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    background-color: #f9804b;
+    border-radius: 100px;
+}
+.imgfleshR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 62px;
+    background-color: #f9804b;
+    border-radius: 100px;
+}
+
+.animal6{
+    border: #FFEE2E solid 2px;
+    width: 1158px;
+    height: 872px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: bisque;
+}
+.item{
+    
+    width: 366px;
+    height: 366px;
+    font-size: 25px;
+    border: 2px dashed green;
+}
